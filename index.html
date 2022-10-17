@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, paper, scissors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Rock, paper, scissors</h1>
+    </header>
+    <main>
+        <section id="scoreboard">
+            <p id="user-score">Your score: <br> <span>0</span></p>
+            <p id="computer-score">Computer score: <br><span>0</span></p>
+        </section>
+        <section id="choiceboard">
+            <p id="user-pick">Your pick: <br> <span></span></p>
+            <p id="computer-pick">Computer's pick: <br> <span></span></p>
+        </section>
+        <section id="gameboard">
+            <label for="input"><p>Make your choice:</p></label>
+            <select id="input" name="input" >
+                <option value="rock">Rock</option>
+                <option value="paper">Paper</option>
+                <option value="scissors">Scissors</option>
+            </select>
+            <button class="submit-btn">Play!</button>
+        </section>
+        <p id="result-message"></p>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>
